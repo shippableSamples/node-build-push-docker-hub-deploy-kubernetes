@@ -1,0 +1,20 @@
+resources:
+  - name: shipdemo-img
+    type: image
+    integration: manishas-dh
+    pointer:
+      sourceName: "manishas/node-build-push-docker-hub-deploy-kubernetes"
+      isPull: false
+    seed:
+      versionName: "master.4"  #replace with your image tag on Amazon ECR
+
+  - name: shipdemo-img-options
+    type: dockerOptions
+    version:
+      portMappings:
+        - 80:80
+
+#kubernetes cluster
+  - name: kube-cluster
+    type: cluster
+    integration: manishas-kube
