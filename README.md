@@ -28,10 +28,11 @@ to Docker Hub. Every time the image on Docker Hub changes, it is deployed to a K
 
 Your end to end pipeline is ready! From here on, any change you make to the application will be deployed to your Kubernetes pod.
 
-## CI Reports on Shippable
+### CI Console Log
+![CI Console Log](https://github.com/shippableSamples/node-build-push-docker-hub-deploy-kubernetes/blob/master/public/resources/images/console-log.jpg)
 
 ### CI Integration View
-![CI Integration View](https://github.com/shippableSamples/node-build-push-docker-hub/blob/master/public/resources/images/integration.jpg)
+![CI Integration View](https://github.com/shippableSamples/node-build-push-docker-hub-deploy-kubernetes/blob/master/public/resources/images/trigger-deploy-kubernetes.jpg)
 
-### CI Console Output
-![CI Console Output](https://github.com/shippableSamples/node-build-push-docker-hub/blob/master/public/resources/images/console.jpg)
+### CD Pipeline
+![CD Pipeline](https://github.com/shippableSamples/node-build-push-docker-hub-deploy-kubernetes/blob/master/public/resources/images/deployment-pipeline-to-kubernetes.jpg)
