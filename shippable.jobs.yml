@@ -11,7 +11,6 @@ jobs:
     type: deploy
     steps:
       - IN: shipdemo-manifest
-      - IN: shipdemo-img-options
       - IN: kube-cluster
       - TASK: managed
         deployMethod: upgrade
