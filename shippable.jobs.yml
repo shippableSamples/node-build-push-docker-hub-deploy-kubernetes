@@ -1,0 +1,17 @@
+jobs:
+  - name: shipdemo-manifest
+    type: manifest
+    steps:
+     - IN: shipdemo-img
+     - IN: shipdemo-img-options
+     - TASK: managed
+
+#kubernetes deploy job
+  - name: kube-deploy
+    type: deploy
+    steps:
+      - IN: shipdemo-manifest
+      - IN: shipdemo-img-options
+      - IN: kube-cluster
+      - TASK: managed
+        deployMethod: upgrade
