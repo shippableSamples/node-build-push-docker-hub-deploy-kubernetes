@@ -16,6 +16,9 @@ to Docker Hub. Every time the image on Docker Hub changes, it is deployed to a K
 * All CI configuration is in `shippable.yml`
 * Follow these [CI Setup Instructions](http://docs.shippable.com/ci/runFirstBuild/) if you have never used Shippable CI Service
 * You should be able to run a manual build or webhook build on commit
+
+## Add Continuous Delivery pipelines to deploy to Kubernetes
+
 * Create an integration for [Kubernetes](http://docs.shippable.com/integrations/containerServices/kubernetes/)
 * All pipeline config is in `shippable.resources.yml` and `shippable.jobs.yml`. Check these files and update config wherever the comment asks you to replace with your specific values
 * Follow instructions to add your [Continuous Deployment pipeline](http://docs.shippable.com/tutorials/pipelines/howToAddSyncRepos/)
