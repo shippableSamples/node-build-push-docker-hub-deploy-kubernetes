@@ -1,8 +1,8 @@
 ![AyeAye](https://github.com/shippableSamples/node-build-push-docker-hub/blob/master/public/resources/images/captain.png)
 
 # Docker Build, Continuous Integration, and Deployment to Kubernetes for a Node JS application
-[![Run Status](https://api.shippable.com/projects/5885aec6aebc4e0f00804633/badge?branch=master)](https://app.shippable.com/projects/5885aec6aebc4e0f00804633)
-[![Coverage Badge](https://api.shippable.com/projects/5885aec6aebc4e0f00804633/coverageBadge?branch=master)](https://app.shippable.com/projects/5885aec6aebc4e0f00804633)
+[![Run Status](https://api.shippable.com/projects/5885ecca11c45a1000af5760/badge?branch=master)](https://app.shippable.com/projects/5885ecca11c45a1000af5760)
+[![Coverage Badge](https://api.shippable.com/projects/5885ecca11c45a1000af5760/coverageBadge?branch=master)](https://app.shippable.com/projects/5885ecca11c45a1000af5760)
 
 
 A simple Node JS application with unit tests and coverage reports using mocha
